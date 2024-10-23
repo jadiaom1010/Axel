@@ -11,6 +11,7 @@ import Footer from "../Footer/Footer";
 import PopUpButton from '../PopUpButton/PopUpButton'
 import { ThemeContext } from '../../pages/Home'
 import Navbar from "../Navbar/Navbar"
+import Chatbot from '../chatbot'
 
 const HomePage = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
@@ -18,7 +19,8 @@ const HomePage = () => {
     return (
         <div className={theme === "light" ? "relative sm:w-full sm:overflow-x-hidden" : "relative bg-dark sm:w-full sm:overflow-x-hidden"} >
             <div className="fixed right-4 bottom-2 z-20">
-                <PopUpButton></PopUpButton>
+                {/*<PopUpButton></PopUpButton>*/}
+                <Chatbot></Chatbot>
             </div>
             <div className="bg-white p-0 m-0 w-full">
                 <WrapperContainer navHead>

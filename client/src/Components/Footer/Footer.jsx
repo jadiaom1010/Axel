@@ -86,7 +86,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className={theme === "light" ? "text-dark pb-2 font-inter font-light cursor-pointer no-underline align-middle tracking-wide normal-case sm:text-xs sm:p-0" : "text-gray-200 pb-2 font-inter font-light cursor-pointer no-underline align-middle tracking-wide normal-case sm:text-xs sm:p-0"}>
-                        Copyright {year} page by Veerendra Gumate
+                        Copyright {year} page by Om Jadia
                     </p>
                 </div>
             </div>

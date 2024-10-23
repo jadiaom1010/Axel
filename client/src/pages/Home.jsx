@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect, createContext } from "react";
+
 import HomePage from "../Components/AllComponents/Home";
 // import { ThemeBgContext } from './Components/ContextWrapper/ThemeContext.jsx';
 
@@ -38,6 +39,7 @@ const Home = () => {
         <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
             <div className="App m-0 p-0 w-full" >
                 <HomePage />
+            
             </div>
         </ThemeContext.Provider>
     )
